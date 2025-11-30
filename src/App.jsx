@@ -6,12 +6,10 @@ import { UserProvider } from "./UserContext";
 function App() {
   return (
     <UserProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Page1 />} />
+        <Route path="/page2" element={<Page2 />} />
+      </Routes>
     </UserProvider>
   );
 }
