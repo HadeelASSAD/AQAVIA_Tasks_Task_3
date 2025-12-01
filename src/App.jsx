@@ -8,7 +8,10 @@ function App() {
     <UserProvider>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Page1 />} />
+          <Route
+            path="https://hadeelassad.github.io/AQAVIA_Tasks_Task_3/"
+            element={<Page1 />}
+          />
           <Route path="/page2" element={<Page2 />} />
         </Routes>
       </BrowserRouter>
